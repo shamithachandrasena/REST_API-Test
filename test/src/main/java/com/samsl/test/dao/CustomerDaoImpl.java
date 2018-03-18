@@ -7,6 +7,8 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.samsl.test.model.Customer;
+
 
 public class CustomerDaoImpl implements CustomerDao{
 
@@ -96,6 +98,30 @@ public class CustomerDaoImpl implements CustomerDao{
 	        return null;
 	    }       
 	  }
+
+	@Override
+	public Customer addCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer updateCustomer(int id, Customer customer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer deleteCustomer(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer getCustomerById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 	
 }
