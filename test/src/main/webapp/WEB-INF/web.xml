@@ -9,6 +9,11 @@
         org.springframework.web.context.ContextLoaderListener
     </listener-class>
   </listener>
+  <!--  TO REGISTER THE BEANS -->  
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:applicationContext.xml</param-value>
+  </context-param>
     
     <servlet>
         <servlet-name>Jersey Web Application</servlet-name>
