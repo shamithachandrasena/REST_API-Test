@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.samsl.test.dao.CustomerDao;
 import com.samsl.test.model.Customer;
 
-public class CustomerServiceImp implements CustomerService {
+public class CustomerServiceImpl implements CustomerService {
 
 	  @Autowired
 	  private CustomerDao customerDao; 
