@@ -40,28 +40,5 @@ public class CustomerServiceImp implements CustomerService {
 	    return customerDao.getAllCustomer();
 	  }
 
-	@Override
-	public Customer addCustomer(Customer customer) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Customer updateCustomer(int id, Customer customer) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Customer deleteCustomer(int id) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Customer getCustomerById(int id) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 	
 }
