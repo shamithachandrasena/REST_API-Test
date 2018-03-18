@@ -1,7 +1,9 @@
 package com.samsl.test.dao;
 import java.util.List;
 
-public class CustomerDao {
+import com.samsl.test.model.Customer;
+
+public interface CustomerDao {
 
 	 String getStringTest();
 	 Customer addCustomer(Customer customer);
