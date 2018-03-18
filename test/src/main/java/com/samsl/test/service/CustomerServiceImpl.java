@@ -2,7 +2,10 @@ package com.samsl.test.service;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class CustomerServiceImp limplements CustomerService {
+import com.samsl.test.dao.CustomerDao;
+import com.samsl.test.model.Customer;
+
+public class CustomerServiceImp implements CustomerService {
 
 	  @Autowired
 	  private CustomerDao customerDao; 
@@ -36,5 +39,29 @@ public class CustomerServiceImp limplements CustomerService {
 	  public List<Customer> getAllCustomer() {
 	    return customerDao.getAllCustomer();
 	  }
+
+	@Override
+	public Customer addCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer updateCustomer(int id, Customer customer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer deleteCustomer(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer getCustomerById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }

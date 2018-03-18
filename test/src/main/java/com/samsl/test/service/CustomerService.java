@@ -1,6 +1,8 @@
 package com.samsl.test.service;
 import java.util.List;
 
+import com.samsl.test.model.Customer;
+
 public interface CustomerService {
 
     String getStringTest();
