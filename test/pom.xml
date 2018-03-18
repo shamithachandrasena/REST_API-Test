@@ -168,6 +168,15 @@
             <version>${spring.version}</version>
         </dependency>
         
+<!-- ********************* MY SQL CONNECTOR *************************  -->  
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.38</version>
+        </dependency>
+        
+        
     </dependencies>
     <properties>
         <jersey.version>2.26-b03</jersey.version>
