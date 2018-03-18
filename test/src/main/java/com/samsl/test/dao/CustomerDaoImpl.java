@@ -56,7 +56,7 @@ public class CustomerDaoImpl implements CustomerDao{
 	    Session session = sessionFactory.openSession();
 	    Transaction tx = session.beginTransaction();
 	    try{
-	        Customer cust = session.get(Customer.class,id);
+	        Customer cust = (Customer) session.get(Customer.class,id);
 	        session.delete(cust);
 	        tx.commit();
 	        return cust;
@@ -71,7 +71,7 @@ public class CustomerDaoImpl implements CustomerDao{
 	    Session session = sessionFactory.openSession();
 	    Transaction tx = session.beginTransaction();
 	    try{
-	        Customer cust = session.get(Customer.class,id);
+	        Customer cust = (Customer) session.get(Customer.class,id);
 	        tx.commit();
 	        session.close();
 	        return cust;
@@ -99,29 +99,7 @@ public class CustomerDaoImpl implements CustomerDao{
 	    }       
 	  }
 
-	@Override
-	public Customer addCustomer(Customer customer) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Customer updateCustomer(int id, Customer customer) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Customer deleteCustomer(int id) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Customer getCustomerById(int id) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 
 	
 }
