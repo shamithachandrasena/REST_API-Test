@@ -18,14 +18,18 @@
     <servlet>
         <servlet-name>Jersey Web Application</servlet-name>
         <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
-        <init-param>
+       
+       <!--  
+       <init-param>
             <param-name>jersey.config.server.provider.packages</param-name>
             <param-value>com.samsl.test</param-value>
         </init-param>
+        -->
+        
         <!-- TO REGISTER THE SERVLET which is mentioned in the MyApplication -->
     <init-param>
       <param-name>javax.ws.rs.Application</param-name>
-      <param-value>org.pramod.config.MyApplication</param-value>
+      <param-value>com.samsl.test.config.MyApplication</param-value>
     </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
