@@ -13,13 +13,14 @@ import com.samsl.test.service.CustomerService;
  */
 @Path("myresource")
 public class MyResource {
-	 @Autowired
-	 CustomerService customerService;
+//	 @Autowired
+//	 CustomerService customerService;
 	 
 	 @GET
 	 @Produces(MediaType.TEXT_PLAIN)
 	 public String getIt(){
-	 return customerService.getStringTest();
+	 //return customerService.getStringTest();
+		 return "Working!!!";
 	 }
 	
 

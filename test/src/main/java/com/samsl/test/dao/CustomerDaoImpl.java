@@ -12,8 +12,8 @@ import com.samsl.test.model.Customer;
 
 public class CustomerDaoImpl implements CustomerDao{
 
-	@Autowired
-	  SessionFactory sessionFactory;
+@Autowired
+SessionFactory sessionFactory;
 
 	  @Override
 	  public String getStringTest(){
