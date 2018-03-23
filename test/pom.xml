@@ -56,7 +56,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-search-orm</artifactId>
-            <version>4.1.9.Final</version>
+            <version>${hibernate.version}</version>
         </dependency>
         
 <!-- ********************** SPRING 4.3.4 *****************************  -->
@@ -179,8 +179,9 @@
         
     </dependencies>
     <properties>
-        <jersey.version>2.26-b03</jersey.version>
-        <spring.version>4.3.5.RELEASE</spring.version>
+        <jersey.version>2.25</jersey.version>
+       	<spring.version>4.3.5.RELEASE</spring.version>
+        <hibernate.version>5.5.6.Final</hibernate.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 </project>
