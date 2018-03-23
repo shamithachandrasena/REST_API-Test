@@ -56,7 +56,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-search-orm</artifactId>
-            <version>5.3.0.CR1</version>
+            <version>4.1.9.Final</version>
         </dependency>
         
 <!-- ********************** SPRING 4.3.4 *****************************  -->
