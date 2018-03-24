@@ -45,11 +45,17 @@
             <!-- artifactId>jersey-container-servlet</artifactId -->
         </dependency>
         <!-- uncomment this to get JSON support
+        -->
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-moxy</artifactId>
         </dependency>
+        <!-- 
         -->
+        <dependency>
+        <groupId>org.glassfish.jersey.ext</groupId>
+        <artifactId>jersey-spring3</artifactId>
+      	</dependency>
         
 <!-- ********************* HIBERNATE 5.5.6 ************************* -->  
 

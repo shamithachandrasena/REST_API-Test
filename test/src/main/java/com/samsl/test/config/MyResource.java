@@ -18,6 +18,7 @@ public class MyResource {
 	 @GET
 	 @Produces(MediaType.TEXT_PLAIN)
 	 public String getIt(){
+		 System.out.println("invoked myresource");
 	 return customerService.getStringTest();
 	 }
 	
