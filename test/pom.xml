@@ -56,6 +56,14 @@
         <groupId>org.glassfish.jersey.ext</groupId>
         <artifactId>jersey-spring3</artifactId>
       	</dependency>
+      	     
+<!-- ******************************************************** -->       
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>3.8.1</version>
+        <scope>test</scope>
+      </dependency>
         
 <!-- ********************* HIBERNATE 5.5.6 ************************* -->  
 

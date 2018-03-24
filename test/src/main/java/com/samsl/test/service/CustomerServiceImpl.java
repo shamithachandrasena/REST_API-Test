@@ -16,7 +16,6 @@ public class CustomerServiceImpl implements CustomerService  {
 
 		  @Override
 		  public String getStringTest() {
-			  System.out.println("invoked customerserviceimpl");
 		    return customerDao.getStringTest();
 		  }
 
